@@ -11,6 +11,7 @@ import {
   Linking,
 } from 'react-native';
 import Svg, { G, Path } from 'react-native-svg';
+import { Test } from "@petbuddy/petbuddy-ui"
 
 export const App = () => {
   const [whatsNextYCoord, setWhatsNextYCoord] = useState<number>(0);
@@ -18,6 +19,7 @@ export const App = () => {
 
   return (
     <>
+      <Test/>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView
