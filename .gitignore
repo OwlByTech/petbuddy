@@ -57,3 +57,6 @@ cache/
 
 
 apps/petbuddy-e2e/artifacts
+apps/petbuddy-client-e2e/artifacts
+apps/petbuddy-walker-e2e/artifacts
+apps/petbuddy-ui-e2e/artifacts

@@ -1,5 +1,5 @@
 {
-  "name": "petbuddy",
+  "name": "petbuddy-walker",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -16,7 +16,7 @@
     "react": "*"
   },
   "scripts": {
-    "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . apps/petbuddy && cp package-lock.json apps/petbuddy",
-    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/petbuddy"
+    "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . apps/petbuddy-walker && cp package-lock.json apps/petbuddy-walker",
+    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/petbuddy-walker"
   }
 }

@@ -1,7 +1,7 @@
 {
-  "name": "petbuddy",
+  "name": "petbuddy-client",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/petbuddy/src",
+  "sourceRoot": "apps/petbuddy-client/src",
   "projectType": "application",
   "targets": {
     "start": {
@@ -14,7 +14,7 @@
     "serve": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "nx start petbuddy"
+        "command": "nx start petbuddy-client"
       }
     },
     "run-ios": {
@@ -69,7 +69,7 @@
       "dependsOn": ["ensure-symlink", "sync-deps"],
       "options": {
         "platform": "all",
-        "outputDir": "../../dist/apps/petbuddy"
+        "outputDir": "../../dist/apps/petbuddy-client"
       }
     },
     "export-web": {
@@ -82,14 +82,14 @@
       "executor": "@nx/eslint:lint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["apps/petbuddy/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["apps/petbuddy-client/**/*.{ts,tsx,js,jsx}"]
       }
     },
     "test": {
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "apps/petbuddy/jest.config.ts"
+        "jestConfig": "apps/petbuddy-client/jest.config.ts"
       }
     }
   },

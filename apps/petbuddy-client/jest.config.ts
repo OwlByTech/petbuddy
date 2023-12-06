@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'petbuddy',
+  displayName: 'petbuddy-client',
   resolver: '@nx/jest/plugins/resolver',
   preset: 'jest-expo',
   transformIgnorePatterns: [
