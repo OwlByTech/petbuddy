@@ -9,7 +9,7 @@
 To start the project you should run the following command to run 
 expo walker app:
 
-`yarn nx start petbuddy-waker`
+`yarn nx start petbuddy-walker`
 
 Or the following command to run client app:
 
